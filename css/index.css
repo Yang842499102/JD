@@ -1,0 +1,155 @@
+  .main-left{
+  	width: 730px;
+  	height: 454px;
+  	margin: 12px 10px 0 220px;
+  	position: relative;
+  }
+
+    .main-left .switch2{
+  	display:inline-block;
+  	width: 52px;
+  	height: 62px;
+  	background-color: rgba(0,0,0,.3);
+  	position: absolute;
+  	top:50%;
+  	left:0;
+  	margin-top: -31px;
+  	color:#eee;
+  	font:400 22px/62px "microsoft yahei";
+  	text-align: center;
+  	border-radius: 0 10px 10px 0;
+  }
+
+  .main-left .switch2:hover{
+  	background-color: rgba(0,0,0,.7);
+  }
+
+
+  .main-left .switch1{
+  	display:inline-block;
+  	width: 52px;
+  	height: 62px;
+  	background-color: rgba(0,0,0,.3);
+  	position: absolute;
+  	top:50%;
+  	right: 0;
+  	margin-top: -31px;
+  	color:#eee;
+  	font:400 22px/62px "microsoft yahei";
+  	text-align: center;
+  	border-radius: 10px 0 0 10px;
+  }
+
+  .main-left .switch1:hover{
+  	background-color: rgba(0,0,0,.7);
+  }
+  .main-left ul{
+  	width: 200px;
+  	height: 18px;
+  	position: absolute;
+  	left:50%;
+  	margin-left: -64px;
+  	bottom:8px;
+
+  }
+  .main-left li{
+  	width: 18px;
+  	padding:0 4px;
+  	float: left;
+  }
+
+  .main-left a{
+  	display: inline-block;
+  	width: 18px;
+  	height: 18px;
+  	background-color: #000;
+  	border-radius:50%;
+  	text-align: center;
+  	color:#fff;
+  }
+
+  .main-left .current{
+  	background-color: #B61B1F;
+  }
+
+
+  .main-right{
+  	width: 248px;
+  	margin-top: 12px;
+  	
+  }
+
+
+  .main-right-top{
+  	height: 372px;
+  	border: 1px solid #E4E4E4;
+  	overflow: hidden;
+
+  }
+  .main-right-top-top{
+  	height: 163px;
+  	border-bottom: 1px dashed #eee;
+  }
+
+  .main-right-top-top-top{
+  	height: 32px;
+  	line-height: 32px;
+  	border-bottom: 1px dotted #E4E4E4;
+  	padding:0 10px;
+  }
+
+	.main-right-top-top h2{
+		font:400 14px/32px "microsoft yahei";
+	}
+
+	.main-right-top-top i{
+		font: 400 12px/31px "consolas";
+	}
+
+	.main-right-top-top-buttom span{
+		font:700 12px/24px "microsoft yahei";
+	}
+	.main-right-top-top-buttom li{
+
+		height: 24px;
+		padding:0 5px;
+	}
+
+	.main-right-top-buttom ul{
+		width: 260px;
+	}
+
+	.main-right-top-buttom li{
+		position: relative;
+		height: 70px;
+		width: 62px;
+		float: left;
+		border: 1px solid #eee;
+		margin-left: -1px;	
+	}
+  	
+
+  	.main-right-top-buttom a{
+  		display: block;
+  		padding-top: 40px;
+  		height: 30px;
+  		text-align: center;
+  		line-height: 30px;
+  	}
+  	.main-right-top-buttom i{
+  		position: absolute;
+  		text-align: center;
+  		width: 21px;
+  		height: 26px;
+  		top:12px;
+  		left: 20px;
+  		/*background-color: pink;*/
+      background: url(../images/fly.png);
+  	}
+
+  	.main-right-buttom{
+  		width: 250px;
+  		height: 75px;
+  		background-color: pink;
+  		margin-top: 5px;
+  	}
